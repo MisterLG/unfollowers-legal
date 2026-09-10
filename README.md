@@ -16,10 +16,24 @@ Veröffentlicht über GitHub Pages:
 dunklem Erscheinungsbild an, weil sie meist vom iPhone aus geöffnet werden. Das
 Motiv im Kopf jeder Seite ist dasselbe wie das App-Symbol.
 
+Live unter <https://misterlg.github.io/unfollowers-legal/>.
+
 ## Stand
 
 Die App ist **nicht kommerziell**: keine Werbung, keine In-App-Käufe, kein
-Tracking. Deshalb reichen Impressum und Datenschutzerklärung.
+Tracking. Deshalb reichen Impressum und Datenschutzerklärung — und deshalb
+steht dort **keine Anschrift**, sondern Name, E-Mail und der Hinweis, dass eine
+ladungsfähige Anschrift auf Anfrage mitgeteilt wird.
+
+> Die Unterzeile lautet „Anbieterkennzeichnung“ und nicht „Angaben gemäß
+> § 5 DDG“ — die Vorschrift verlangt eine Anschrift, und auf sie wird sich hier
+> bewusst nicht berufen. § 5 DDG knüpft an geschäftsmäßige, in der Regel gegen
+> Entgelt angebotene Telemedien an; für ein kostenloses Angebot ohne Werbung
+> und Käufe greift die Pflicht nach vertretbarer Auslegung nicht. Risikofrei
+> ist das nicht: „geschäftsmäßig“ wird weit ausgelegt.
+>
+> **Wird die App monetarisiert, muss die Anschrift zurück** — zusammen mit AGB
+> und Widerrufsbelehrung.
 
 > **Vor dem Einschalten der Monetarisierung** (`Store/MonetizationConfig.swift`)
 > müssen **AGB und Widerrufsbelehrung** ergänzt und die Datenschutzerklärung um
