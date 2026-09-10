@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hilfe — Unfollowers</title>
+<meta name="description" content="Datenexport bei Instagram anfordern und in Unfollowers einlesen.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mark" aria-hidden="true">
+    <svg viewBox="0 0 64 64" width="46" height="46" fill="none">
+        <path d="M 44.07 28.13 A 19 19 0 1 1 31.87 15.93"
+              stroke="var(--accent)" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="47.2" cy="12.8" r="5.5" fill="var(--accent-soft)"/>
+    </svg>
+</div>
+
+<h1>Hilfe</h1>
+<p class="tagline">Vom Antrag bis zur fertigen Liste.</p>
+
+<h2 id="einrichtung">Den Export anfordern</h2>
+
+<p>
+    Unfollowers braucht deinen Instagram-Datenexport. Den fordert man einmal an, danach
+    ist es bei jeder Aktualisierung derselbe kurze Weg.
+</p>
+
+<div class="card">
+    <ol>
+        <li>In Instagram: <strong>Menü → Konten-Center → Deine Informationen und
+            Berechtigungen → Informationen herunterladen</strong>.<br>
+            <span class="meta">Der Knopf „Exportseite öffnen“ in der App bringt dich
+            direkt dorthin.</span></li>
+        <li>Konto auswählen, dann <strong>„Informationen herunterladen“</strong>.</li>
+        <li>Bei der Auswahl der Informationen mindestens
+            <strong>„Follower und Follows“</strong> anhaken. Ein Export nur mit Fotos
+            enthält die Listen nicht.</li>
+        <li>Als Format <strong>JSON</strong> wählen — <strong>nicht HTML</strong>.
+            Nur JSON ist maschinenlesbar.</li>
+        <li>Zeitraum: <strong>Gesamter Zeitraum</strong>.</li>
+        <li>Anfrage absenden.</li>
+    </ol>
+</div>
+
+<p>
+    Instagram schickt dir eine E-Mail, sobald der Export bereitsteht. Kleine Konten sind
+    nach wenigen Minuten fertig, große können Stunden brauchen. Unfollowers kann dich
+    daran erinnern — der Schalter dafür steht in den Einstellungen.
+</p>
+
+<h2>Den Export einlesen</h2>
+
+<p>
+    Der schnellste Weg: In der E-Mail von Instagram auf die ZIP-Datei tippen, dann auf
+    <strong>Teilen</strong> und <strong>Unfollowers</strong> wählen. Fertig.
+</p>
+
+<p>
+    Alternativ lädst du die Datei herunter und wählst sie in der App über
+    <strong>„Datei auswählen“</strong> aus. Entpacken ist nicht nötig — die App liest
+    direkt aus der ZIP-Datei und rührt die Fotos darin nicht an. Ein bereits entpackter
+    Ordner oder einzelne JSON-Dateien daraus funktionieren ebenfalls.
+</p>
+
+<div class="card">
+    <h3>Beim ersten Mal siehst du noch keine Unfollower</h3>
+    <p>
+        Das ist richtig so. Der erste Export ist die Messlatte — was danach passiert,
+        zeigt die App ab dem zweiten. Die übrigen Listen („folgen nicht zurück“,
+        „gegenseitig“ und so weiter) stehen sofort zur Verfügung.
+    </p>
+</div>
+
+<h2>Wenn etwas nicht klappt</h2>
+
+<dl>
+    <dt>„Dieser Export liegt als HTML vor“</dt>
+    <dd>Beim Anfordern war HTML statt JSON eingestellt. Fordere den Export erneut an
+        und wähle diesmal JSON.</dd>
+
+    <dt>„In dieser Datei stecken keine Follower-Daten“</dt>
+    <dd>Beim Anfordern war „Follower und Follows“ nicht angehakt. Ein Export nur mit
+        Fotos und Nachrichten enthält die Listen nicht.</dd>
+
+    <dt>„Es wurden mehrere verschiedene Exporte auf einmal ausgewählt“</dt>
+    <dd>Jeder Export ist ein eigener Stand und muss einzeln eingelesen werden. Würden
+        zwei zusammengeworfen, entstünde ein Stand, den es nie gab, und der Verlauf
+        wäre still verfälscht. Lies sie nacheinander ein, den ältesten zuerst.</dd>
+
+    <dt>Das Archiv lässt sich nicht öffnen</dt>
+    <dd>Meistens ein abgebrochener Download. Lade die ZIP-Datei noch einmal von
+        Instagram herunter. Der Download-Link ist nur einige Tage gültig.</dd>
+
+    <dt>Jemand steht als Unfollower da, folgt aber noch</dt>
+    <dd>Der Export nennt nur Benutzernamen, keine festen Kennnummern. Wer sich
+        umbenennt, sieht darin zwangsläufig aus wie ein Weggang und ein Neuzugang
+        zugleich. Dasselbe gilt für gelöschte und gesperrte Konten. Aus diesen Daten
+        lässt sich das nicht unterscheiden — deshalb steht der Hinweis auch über der
+        Liste in der App.</dd>
+
+    <dt>Der Export ist sehr groß</dt>
+    <dd>Kein Problem. Die App liest nur das Inhaltsverzeichnis des Archivs und holt
+        sich daraus die wenigen JSON-Dateien mit den Listen. Fotos und Videos werden
+        nie entpackt, egal wie viele darin liegen.</dd>
+
+    <dt>Mehrere Instagram-Konten</dt>
+    <dd>Funktioniert. Die App erkennt am Export, zu welchem Konto er gehört, und
+        führt für jedes einen eigenen Verlauf. Umschalten in den Einstellungen.</dd>
+</dl>
+
+<h2>Daten löschen</h2>
+<p>
+    <strong>Einstellungen → Daten → „Alle Daten löschen“</strong> entfernt sämtliche
+    eingelesenen Stände. Die App zu löschen entfernt ebenfalls alles. Die Exportdateien
+    auf deinem Gerät sind davon nicht betroffen.
+</p>
+
+<h2>Noch Fragen?</h2>
+<p>
+    Schreib an <a href="mailto:stadien.epsilon.9i@icloud.com">stadien.epsilon.9i@icloud.com</a>.
+</p>
+
+<nav class="footer">
+    <a href="index.html">Start</a>
+    <a href="privacy.html">Datenschutz</a>
+    <a href="impressum.html">Impressum</a>
+</nav>
+
+</body>
+</html>

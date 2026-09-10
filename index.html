@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Unfollowers</title>
+<meta name="description" content="Sieh, wer dir auf Instagram nicht mehr folgt — ohne Login, ohne Passwort, ohne Server.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mark" aria-hidden="true">
+    <svg viewBox="0 0 64 64" width="46" height="46" fill="none">
+        <path d="M 44.07 28.13 A 19 19 0 1 1 31.87 15.93"
+              stroke="var(--accent)" stroke-width="7" stroke-linecap="round"/>
+        <circle cx="47.2" cy="12.8" r="5.5" fill="var(--accent-soft)"/>
+    </svg>
+</div>
+
+<h1>Unfollowers</h1>
+<p class="tagline">Sieh, wer dir nicht mehr folgt — ohne dich irgendwo anzumelden.</p>
+
+<p>
+    Unfollowers vergleicht deine Followerliste mit dem letzten Stand und zeigt dir,
+    wer dazugekommen ist und wer nicht mehr da ist. Dazu: wem du folgst, ohne dass es
+    erwidert wird, wer dir folgt, ohne dass du zurückfolgst, und wie sich deine
+    Reichweite über die Monate entwickelt.
+</p>
+
+<div class="card highlight">
+    <h3>Kein Login. Kein Passwort.</h3>
+    <p>
+        Andere Apps dieser Art wollen deine Instagram-Zugangsdaten. Das ist riskant —
+        Instagram sperrt Konten, die auf diesem Weg ausgelesen werden. Unfollowers
+        macht es anders: Es liest den offiziellen Datenexport, den Instagram dir auf
+        Anfrage selbst herausgibt. Deine Zugangsdaten sieht die App nie, weil sie sie
+        nicht braucht.
+    </p>
+</div>
+
+<h2>Warum das der einzig saubere Weg ist</h2>
+
+<p>
+    Instagram gibt Followerlisten über keine Schnittstelle heraus. Die alte
+    <em>Basic Display API</em> wurde Ende 2024 abgeschaltet, und die offizielle
+    Anmeldung über OAuth liefert zwar deine Follower-<em>Zahl</em>, nie aber die
+    <em>Liste</em>. Was bleibt, ist der Datenexport, den dir Instagram wegen der DSGVO
+    auf Anfrage herausgeben muss. Genau den liest diese App.
+</p>
+
+<h2>Und es merkt sich alles</h2>
+
+<p>
+    Jeder eingelesene Export wird als eigener, datierter Stand abgelegt. Mit der Zeit
+    entsteht daraus eine Zeitachse: wer wann gegangen ist, wie deine Reichweite
+    wächst. Apps, die Instagram live abfragen, sehen immer nur den Moment und können
+    das prinzipiell nicht.
+</p>
+
+<h2>Was du siehst</h2>
+
+<ul>
+    <li><strong>Unfollower</strong> — wer seit dem letzten Stand gegangen ist</li>
+    <li><strong>Neue Follower</strong></li>
+    <li><strong>Folgen nicht zurück</strong> — du folgst, sie nicht</li>
+    <li><strong>Du folgst nicht zurück</strong></li>
+    <li><strong>Gegenseitig</strong></li>
+    <li><strong>Offene Anfragen</strong>, die unbeantwortet blieben</li>
+    <li><strong>Enge Freunde ohne Follow</strong> — sie stehen in deiner Liste
+        „Enge Freunde“, folgen dir aber nicht und sehen deine engen Storys deshalb
+        nie. Diese Überschneidung zeigt Instagram nirgends an.</li>
+    <li><strong>Verlauf</strong> mit Diagramm über alle Stände</li>
+</ul>
+
+<h2>Was Unfollowers nicht tut</h2>
+
+<p>
+    Kein Server, kein Konto, keine Registrierung, keine Anmeldung bei Instagram.
+    Keine Werbung, kein Tracking. Alles bleibt auf deinem Gerät. Mehr dazu in der
+    <a href="privacy.html">Datenschutzerklärung</a>.
+</p>
+
+<nav class="footer">
+    <a href="support.html">Hilfe &amp; Einrichtung</a>
+    <a href="privacy.html">Datenschutz</a>
+    <a href="impressum.html">Impressum</a>
+    <p class="meta" style="margin-top:1rem">
+        Unfollowers steht in keiner Verbindung zu Instagram oder Meta Platforms, Inc.
+        „Instagram“ ist eine Marke von Meta Platforms, Inc.
+    </p>
+</nav>
+
+</body>
+</html>
