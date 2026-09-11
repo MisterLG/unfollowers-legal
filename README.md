@@ -51,6 +51,16 @@ ladungsfähige Anschrift auf Anfrage mitgeteilt wird.
    nahegelegt würde. Der Markenhinweis steht im Impressum und im Fuß der
    Startseite.
 
+## demo/
+
+Zwei Beispielexporte für die App-Prüfung bei Apple, verlinkt in den
+Prüfhinweisen (`APPSTORE.md` im App-Projekt). Ohne sie ließe sich die App ohne
+eigenes Instagram-Konto und stundenlanges Warten auf einen Export nicht testen.
+
+Die Daten sind **vollständig erfunden**; alle Namen haben die Form
+`unfollowers_demo_…`, damit sie nicht zufällig auf echte Konten zeigen. Nie
+einen echten Export hier ablegen — dieses Repo ist öffentlich.
+
 ## Änderungen
 
 Bei inhaltlichen Änderungen an der Datenschutzerklärung das Stand-Datum in
